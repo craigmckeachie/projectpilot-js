@@ -6,10 +6,10 @@ function formatDescription(description) {
 }
 
 function ProjectCard(props) {
-  const { project } = props;
+  const { project, onEdit } = props;
 
   const handleEditClick = (projectBeingEdited) => {
-    console.log(projectBeingEdited);
+    onEdit(projectBeingEdited);
   };
 
   return (
@@ -37,6 +37,7 @@ function ProjectCard(props) {
 
 ProjectCard.propTypes = {
   project: PropTypes.instanceOf(Project).isRequired,
+  onEdit: PropTypes.func.isRequired
 };
 
 export default ProjectCard;
