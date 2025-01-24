@@ -23,16 +23,16 @@ function ProjectCard(props) {
           </h5>
           <p>{formatDescription(project.description)}</p>
           <p>Budget : {project.budget.toLocaleString()}</p>
-          <button
-            className="bordered"
-            onClick={() => {
-              handleEditClick(project);
-            }}
-          >
-            <span className="icon-edit "></span>
-            Edit
-          </button>
         </Link>
+        <button
+          className="bordered"
+          onClick={() => {
+            handleEditClick(project);
+          }}
+        >
+          <span className="icon-edit "></span>
+          Edit
+        </button>
       </section>
     </div>
   );
