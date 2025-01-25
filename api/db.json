@@ -752,7 +752,7 @@
     },
     {
       "id": 76,
-      "name": "Heidenreich Group",
+      "name": "Heidenreich Groups",
       "description": "De-engineered asynchronous frame. Molestiae fuga facere qui iure quo aspernatur dolores ut excepturi.",
       "imageUrl": "/assets/placeimg_500_300_arch8.jpg",
       "contractTypeId": 4,
@@ -762,7 +762,7 @@
     },
     {
       "id": 77,
-      "name": "Abshire and Sons",
+      "name": "Abshire and Son",
       "description": "Ergonomic mission-critical knowledge user. Consequatur pariatur eos molestiae qui aut dolorem laudantium nesciunt doloribus.",
       "imageUrl": "/assets/placeimg_500_300_arch6.jpg",
       "contractTypeId": 6,
@@ -942,7 +942,7 @@
     },
     {
       "id": 95,
-      "name": "Armstrong - Hands",
+      "name": "Armstrong - Hand",
       "description": "Persistent 3rd generation capability. Sint omnis asperiores voluptas sapiente delectus blanditiis earum ut voluptatem.",
       "imageUrl": "/assets/placeimg_500_300_arch6.jpg",
       "contractTypeId": 2,
